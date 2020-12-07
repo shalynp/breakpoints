@@ -1,0 +1,23 @@
+html, body {
+	background: lightgreen;
+}
+
+
+/* ----------- Tablets larger than 768px wide ----------- */
+@media (min-width: 768px) {
+	html,body {
+    background-image: linear-gradient(red, purple);
+		width: 100%;
+		height: 100%;
+  }
+}
+
+/* ----------- Monitors larger than 1200px wide ----------- */
+@media (min-width: 1200px) {
+
+	html, body {
+		background-image: linear-gradient( #cb77ff, #77fcff);
+    width: 100%;
+    height: 100%;
+	}
+}
